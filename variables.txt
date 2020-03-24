@@ -1,0 +1,36 @@
+Assign a variable called food a string value of your choosing
+
+var food = "bananas";
+
+Assign a variable called is_new to a boolean value
+
+var is_new = false;
+
+Re-assign your food variable to a new string
+
+food = "apples";
+
+Assign a variable called num1 to a numerical value
+
+var num1 = 27;
+
+Assign a variable called num2 to a different numerical value
+
+var num2 = 33;
+
+Multiply num1 by num2 and store the result in a variable called num3
+
+var num3 = num1 * num2;
+
+Assign a variable called movies to an array of strings
+
+var movies = [Terminator, Goonies, Saw]
+
+You may use google for the following two:
+Write a line of code that removes the last element from the movies array
+
+movies.pop()
+
+Write a line of code that asks how many elements are in the array
+
+console.log(movies.length);
