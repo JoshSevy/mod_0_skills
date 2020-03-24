@@ -24,12 +24,12 @@ var num3 = num1 * num2;
 
 Assign a variable called movies to an array of strings
 
-var movies = [Terminator, Goonies, Saw]
+var movies = [Terminator, Goonies, Saw, Grandmas Boy];
 
 You may use google for the following two:
 Write a line of code that removes the last element from the movies array
 
-movies.pop()
+movies.pop();
 
 Write a line of code that asks how many elements are in the array
 
