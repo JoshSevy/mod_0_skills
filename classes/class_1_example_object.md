@@ -1,16 +1,18 @@
 ### Object Class 1 : Don's Mixed Drinks
 
-### Attributes
-
-isClean (true)
-greet (""Hello welcome to Don's"")
-checkTotal (check1: 24.56 check2: 45.67)
-guestCount (45)
-happyHour (false, - 0)
+### Attributes:        
+```
+isClean (true)   
+greet (""Hello welcome to Don's"")   
+checkTotal (0.00)   
+guestCount (45)   
+happyHour (false)
+```
 
 ### Methods:
-
-ringIn (adds item:float to checkTotal)
-newGuest (sets greet "Hello welcome to Don's")
-endShift (makes isClean: false, guestCount: 0)
-goodTimes (happyHour to true, float : -2.00)
+```
+ringIn (adds 4.99 to checkTotal)   
+newGuest (greet "Hello welcome to Don's", guestCount + 1)   
+endShift (makes isClean = false)   
+goodTimes (happyHour = true)
+```

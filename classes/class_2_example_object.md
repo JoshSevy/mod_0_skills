@@ -3,15 +3,18 @@
 
 ### Attribute
 
-toiletClog (false)
-doorLock (true)
-tpRolls (4)
-toilets (1)
+```
+toiletClog (false)   
+doorLock (false)   
+tpRolls (4)   
+toilets (1)   
+```
 
+### Methods:
 
-Methods:
-
-brokeToilet (toiletClog to true, toilets: 0)
-noPaper (changes tpRolls  : 0)
-unOccupied (doorLock : false)
-flood (toiletClog : true)
+```
+brokenToilet (toiletClog = true, toilets = 0)
+paperOut (tpRolls  = 0)
+isOccupied (doorLock = true)
+flood (toiletClog = true)
+```
